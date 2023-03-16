@@ -1,0 +1,43 @@
+.list {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.list__item {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    max-width: 40%;
+    margin: 15px auto;
+    border-bottom: .4px solid #3435363d;
+}
+.list__user-info {
+    display: flex;
+    gap: 8%;
+    width: 25%;
+}
+.list__login {
+    width: 60%;
+}
+.list__name, .list__language {
+    width: 25%;
+    text-align: center;
+}
+.category {
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+    margin: 20px auto;
+}
+.repo, .lang {
+    width: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #137dc9b0;
+}
+.user {
+    width: 25%;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #137dc9b0;
+}

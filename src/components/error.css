@@ -1,0 +1,6 @@
+.error {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: crimson;
+    text-align: center;
+}
